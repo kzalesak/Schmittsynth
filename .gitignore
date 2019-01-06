@@ -1,0 +1,15 @@
+#gitignore
+
+#folders
+40106_synth/gerbers/*
+40106_synth/rescue-backup/*
+40106_synth/gerbers/
+40106_synth/rescue-backup/
+40106_synth/lib/ #library folder is not needed as we provide the cached
+40106_synth/lib/*
+res_local/*
+
+#all backups
+*bak
+
+
