@@ -32,11 +32,11 @@ In order to operate your synth, you need to connect one of the inverting gates t
 4. **voltage divider DIV pin to left or right channel** to use both, connect them also together
 
 A sample setup using a potentiometer and gate __D__ is shown here:
-!["Rendering of a synth in standard setup."]("fig/sample_setup.png")
+!["Rendering of a synth in standard setup."](fig/sample_setup.png)
 
 ### Oscillator sync
 Oscillators can be set up in a "synced" mode by having one oscillator control the second one. This is achieved by connecting one oscillator output (or input) pin through a diode to the input pin of the other, periodically bringing the input pin of the second one high, thus turning the output of the second one low. The first one then controls the pitch of the tone and the second one controls timbre, or the color of the sound. It is necessary that the frequency of the first one is sufficiently lower then the second one, otherwise the second one will fail to trigger within the necessary time period and the circuit will stay silent. It is thus recommended to use a larger capacitor for the first circuit and a smaller one for the second. An example setup using gate __D__ to control gate __F__ is shown here:
-!["Rendering of a synth in sync setup."]("fig/sync_setup.png")
+!["Rendering of a synth in sync setup."](fig/sync_setup.png)
 
 
 ## Production note
