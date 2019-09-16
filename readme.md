@@ -3,6 +3,8 @@
 A simple square-wave synthesizer circuit using inverting gates (Logical NOT, Schmitt triggers) in the 40106 Integrated Circuit and a few discrete components. The KiCAD schematic, Printed Circuit Board (PCB) and a cached library are provided.
 This project was developed for the University College London branch of Engineers Without Borders as a basis for a workshop.
 
+__This project is deprecated - please use the upgraded version, [Digisynth](https://github.com/kzalesak/Digisynth), available at https://github.com/kzalesak/Digisynth __
+
 ## Getting Started
 
 ### Prerequisites
@@ -54,17 +56,7 @@ This is the decay capacitor on the board:
 
 ## Production note
 
-If you want to make a copy of this circuit, the following modifications are recommended
-
-- replace the current 3.5mm jack footprint with a footprint of easily available components
-- aggregate pin headers for ease of assembly
-- add a switch to allow for continuous operation of synth
-- add 10k resistors between OUTPUT pins and voltage divider to act as a passive mixer
-- add a voltage divider for left and right audio channel
-
-After that, simply export the following layers as gerbers, and supply them to your PCB fabrication house.
-
-I will happily review any modifications and pull them into this repository, however please be advised that an improved version of this circuit is available ~~[here](https://github.com/kzalesak/Digisynth)~~ *To be published early February*
+__ DO NOT MAKE THIS PCB. IT IS HERE FOR ARCHIVAL PURPOSES. USE THE NEWER [DIGISYNTH](https://github.com/kzalesak/Digisynth) INSTEAD __
 
 
 ## License
